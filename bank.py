@@ -19,12 +19,12 @@ class BankAccount:
         return f"Account {self.account_number} Balance: {self.balance}"
 
 
-acc = BankAccount("12345", 1000)
+acc = BankAccount("7896", 1000)
 print(acc.deposit(500))  
 print(acc.withdraw(200))  
 print(acc.check_balance())   
 
-acc = BankAccount("37591", 5000)
+acc = BankAccount("56567", 5000)
 print(acc.deposit(1000))  
 print(acc.withdraw(7000))  
 print(acc.check_balance())   
